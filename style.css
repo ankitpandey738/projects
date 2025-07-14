@@ -135,3 +135,99 @@ footer {
         margin-bottom: 16px;
     }
 }
+
+/* .product-detail ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.product-detail table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.product-detail th, 
+.product-detail td {
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.product-detail th {
+  background-color: #f4f4f4;
+}
+
+.rent-form {
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+}
+
+.rent-form input, .rent-form button {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.rent-form button {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.rent-form button:hover {
+  background-color: #ffcc00;
+  color: #000;
+} */
+
+
+.tabs {
+  margin-top: 1.5rem;
+}
+
+/* Hide radios */
+.tabs input[type="radio"] {
+  display: none;
+}
+
+/* Tab labels */
+.tab-labels {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab-labels label {
+  background: #1e1e1e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tab-labels label:hover {
+  background: #ffcc00;
+  color: #000;
+}
+
+/* Content blocks default hidden */
+.tab-content > div {
+  display: none;
+  padding: 1rem 0;
+  background: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Show when radio checked */
+#tab-specs:checked ~ .tab-content .content-specs,
+#tab-rent:checked ~ .tab-content .content-rent,
+#tab-service:checked ~ .tab-content .content-service {
+  display: block;
+}

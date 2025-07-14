@@ -9,6 +9,7 @@
 <body>
   <header>
     <div class="logo">Super-Bike Hub.com </div>
+    
     <nav>
       <a href="index.html">Home</a>
       <a href="#">Cart </a>
@@ -20,10 +21,87 @@
     <div>
       <h2>Kawasaki Z900</h2>
       <p><strong>Price:</strong> ₹9,52,000</p>
-      <p>This Z900 supernaked ushers in the most evolved iteration of Sugomi, matching radical streetfighter attitude with premium features. Make no mistake, the challenger spirit is stronger than ever—the Z900 imposes a powerful aura with refined design and assaults the senses with every roar of the 948cc engine.</p>
+      
+       <div class="tabs">
+        <input type="radio" id="tab-specs" name="tabs" checked>
+        <input type="radio" id="tab-rent" name="tabs">
+        <input type="radio" id="tab-service" name="tabs">
+
+        <div class="tab-labels">
+          <label for="tab-specs">Specifications</label>
+          <label for="tab-rent">Rent Availability</label>
+          <label for="tab-service">Service History</label>
+        </div>
+
+        <div class="tab-content">
+          <div class="content-specs">
+            <ul>
+              <li>Engine: 948cc 4-stroke,inline-four,Liquid-cooled, DOHC,16-valve</li>
+              <li>Max Power: 123hp(92.2kW) @ 9,500 rpm</li>
+              <li>ABS: Dual Channel</li>
+              <li>Gearbox: 6-Speed</li>
+              <li>Weight: 212 kg</li>
+              <li>Mileage: 16-20 kmpl</li>
+            </ul>
+          </div>
+
+          <div class="content-rent">
+      <p>✅ <strong>Available</strong> for rent</p>
+      <p><strong>Rent Price:</strong> ₹1,433/day</p>
+      <p><strong>Minimum Booking:</strong> 2 days</p>
+      <p><strong>Deposit:</strong> ₹10,000</p>
+      <p><strong>Contact:</strong> 9876543210</p>
+
+      <form class="rent-form">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="days">Number of Days:</label><br>
+        <input type="number" id="days" name="days" min="2" required><br>
+
+        <label for="start">Start Date:</label><br>
+        <input type="date" id="start" name="start" required><br>
+
+         <button type="submit">Submit Booking</button>
+            
+       </form>
+    </div>
+
+     <div class="content-service">
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Service Center</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2025-01-20</td>
+                  <td>Super-Bike Service Center</td>
+                  <td>Oil Change, Brake Inspection</td>
+                </tr>
+                <tr>
+                  <td>2025-03-15</td>
+                  <td>Super-Bike Service Center</td>
+                  <td>Tire Replacement, Chain Lubrication</td>
+                </tr>
+                <tr>
+                  <td>2025-05-10</td>
+                  <td>Super-Bike Service Center</td>
+                  <td>Full Service, Electrical Check</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <button class="button">Add to Cart</button>
     </div>
   </section>
-
+  <p>This Z900 supernaked ushers in the most evolved iteration of Sugomi, matching radical streetfighter attitude with premium features. Make no mistake, the challenger spirit is stronger than ever—the Z900 imposes a powerful aura with refined design and assaults the senses with every roar of the 948cc engine.</p>
+  
   <footer>
     <p>© 2025 BikeStore. All rights reserved.</p>
   </footer>
